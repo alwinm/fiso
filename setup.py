@@ -1,10 +1,13 @@
 from setuptools import setup, find_packages
 
 subs = setuptools.find_packages(where='.')
-subs.append('')
+packages_ = ['fiso']
+for sub in subs:
+    packages_.append('fiso.' + sub)
+
 
 setup(name='fiso',
       version='0.0',
-      packages=['fiso' + sub for sub in subs],
+      packages=packages
       package_dir={"fiso":"./"},
       )
