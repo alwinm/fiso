@@ -6,6 +6,17 @@ Fast isocontours
 
 Note: due to historical development and laziness, the returned regions are sometimes referred to as "core," "isocontour," "iso," or "fiso."
 
+# Installation
+
+In a directory on your path:
+
+git clone https://github.com/alwinm/fiso.git
+
+OR 
+
+pip install git+https://github.com/alwinm/fiso.git
+
+
 # Problem
 
 Compute the largest isocontours around minima of n-D fields such that each isocontour only contains 1 local minimum.
