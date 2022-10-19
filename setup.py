@@ -1,5 +1,6 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
+
 setup(name='fiso',
       version='0.0',
-      packages=['boundary','tools','walker','ext','setups',''],
+      packages=find_packages(),
       )
