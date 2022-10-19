@@ -8,6 +8,6 @@ for sub in subs:
 
 setup(name='fiso',
       version='0.0',
-      packages=packages_
+      packages=packages_,
       package_dir={"fiso":"./"},
       )
